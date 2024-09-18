@@ -63,7 +63,7 @@ public class XiaomiUtils {
             throw error;
         }finally{
             if (input != null){
-                try{input.close();}catch(Exception _){};
+                try{input.close();}catch(Exception e){};
             }
         }
 
